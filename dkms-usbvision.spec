@@ -4,7 +4,7 @@
 Summary: The usbvision driver for some USB TV devices
 Name: dkms-%{module}
 Version: %{version}
-Release:  %mkrel 2
+Release:  %mkrel 3
 License: GPL
 Group: System/Kernel and hardware
 Source0: http://ovh.dl.sourceforge.net/sourceforge/usbvision/%{module}-%{version}.tar.bz2
