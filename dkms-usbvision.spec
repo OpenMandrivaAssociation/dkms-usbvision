@@ -12,6 +12,7 @@ URL: http://usbvision.sf.net
 Provides: %{module}
 Requires: dkms >= 1.00
 BuildArch: noarch
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root/
 
 %description
 This is a driver for the video grabber USBVision, a USB-only cable used in many "webcam" devices.
