@@ -15,7 +15,8 @@ BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root/
 
 %description
-This is a driver for the video grabber USBVision, a USB-only cable used in many "webcam" devices.
+This is a driver for the video grabber USBVision, a USB-only cable used in many
+"webcam" devices.
 
 %prep
 %setup -n %{module} -q
