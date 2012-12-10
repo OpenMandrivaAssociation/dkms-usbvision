@@ -66,3 +66,37 @@ dkms install -m	%{module} -v %{version}-%{release} --rpm_safe_upgrade
 %preun
 dkms remove -m	%{module} -v %{version}-%{release} --rpm_safe_upgrade --all
 
+
+
+%changelog
+* Fri Mar 06 2009 Antoine Ginies <aginies@mandriva.com> 0.9.8.3-6mdv2009.1
++ Revision: 350650
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.9.8.3-5mdv2009.0
++ Revision: 244354
+- rebuild
+
+* Tue Feb 12 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.9.8.3-3mdv2008.1
++ Revision: 166596
+- fix description-line-too-long
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue Oct 02 2007 Olivier Blin <oblin@mandriva.com> 0.9.8.3-3mdv2008.0
++ Revision: 94471
+- update to new version
+
+
+* Thu Jun 22 2006 Erwan Velu <erwan@seanodes.com> 0.9.8.3-2
+- Rebuild
+
+* Sat Mar 18 2006 Erwan Velu <erwan@seanodes.com> 0.9.8.3-1mdk
+- 2.6.14 is there so we must use the 0.9.8.3 release
+- Fixing source name
+
+* Fri Feb 24 2006 Erwan Velu <erwan@seanodes.com> 0.9.8.2-1mdk
+- initial package
+
