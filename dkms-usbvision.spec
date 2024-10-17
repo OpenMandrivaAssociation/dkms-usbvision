@@ -8,7 +8,7 @@ Release:  7
 License: GPL
 Group: System/Kernel and hardware
 Source0: http://ovh.dl.sourceforge.net/sourceforge/usbvision/%{module}-%{version}.tar.bz2
-URL: http://usbvision.sf.net
+URL: https://usbvision.sf.net
 Provides: %{module}
 Requires: dkms >= 1.00
 BuildArch: noarch
